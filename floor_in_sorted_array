@@ -37,18 +37,16 @@ int FloorElement :: findFloor(float x,int start,int end)
 
 
 int main()
-{
-	
+{	
     FloorElement F;
     int a[100],n,element;
     cin>>n;
+    
     for(int i=0;i<n;i++)
     	cin>>a[i];
 
 	F.setArray(a,n);
-	
 	cin>>element;
-
 	cout<<a[F.findFloor(element,0,n-1)];
 
 	return 0;
