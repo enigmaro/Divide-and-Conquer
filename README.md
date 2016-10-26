@@ -1,1 +1,1 @@
-# Algo-practice
+# Divide and Conquer Algorithm Practice
